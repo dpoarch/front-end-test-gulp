@@ -4,7 +4,8 @@
     "description": "Website running on Gulp",
     "main": "index.js",
     "scripts": {
-        "gulp": "./node_modules/.bin/gulp"
+        "dev": "./node_modules/.bin/gulp connect",
+        "watch": "./node_modules/.bin/gulp watch"
     },
     "repository": {
         "type": "git",

@@ -1,0 +1,78 @@
+@import "bootstrap.min.css";
+@import "index.scss";
+body {
+    background-color: $white;
+}
+
+.post-container {
+    border: 1px solid $grey;
+    position: relative;
+    margin: 100px auto 0;
+    align-items: center;
+}
+
+.btn-facebook {
+    background-color: rgba(169, 169, 169, 0.22);
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none !important;
+    align-items: center;
+    color: $black !important;
+}
+
+.btn-facebook i {
+    font-size: 1.50rem;
+    color: $fbBlue;
+}
+
+.btn-facebook span {
+    font-size: 14px;
+}
+
+.link-stories a,
+.link-stories i {
+    color: $link !important;
+}
+
+.a-user-stories {
+    text-decoration: none !important;
+}
+
+.greyed-out,
+.greyed-out .chevron-more-btn {
+    display: none;
+}
+
+.animate {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOutDown {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+}
+
+@keyframes fadeOutDown {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+}
+
+.fadeOutDown {
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown;
+}

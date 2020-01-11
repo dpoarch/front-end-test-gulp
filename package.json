@@ -1,0 +1,27 @@
+{
+    "name": "front-end-test-david-poarch",
+    "version": "1.0.0",
+    "description": "Website running on Gulp",
+    "main": "index.js",
+    "scripts": {
+        "gulp": "./node_modules/.bin/gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dpoarch/front-end-test-gulp.git"
+    },
+    "author": "David Poarch",
+    "license": "ISC",
+    "dependencies": {
+        "font-awesome": "^4.7.0",
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect": "^5.7.0",
+        "gulp-image": "^6.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.2",
+        "gulp-util": "^3.0.8",
+        "jquery": "^3.4.1"
+    }
+}
